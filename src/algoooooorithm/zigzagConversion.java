@@ -5,8 +5,16 @@ import java.util.Arrays;
 import java.util.List;
 
 public class zigzagConversion {
+	
+	// site : leetcode
+	// prob : zigzagConvertion
+	// diff : medium
+	// url  :  https://leetcode.com/problems/zigzag-conversion/solution/
 
 	public static String convert(String s, int numRows) {
+		
+		if(numRows == 1) return s;
+		
 		int x=0, y=0;
 		boolean condition = false;
 		char[][] array = new char[numRows][s.length()==1?1:s.length()/2+1];
