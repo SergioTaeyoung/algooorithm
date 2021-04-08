@@ -3,7 +3,7 @@ package leetcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class palindromeNumber {
+public class PalindromeNumber {
 	
 	// site : leetcode
 	// prob : Palindrome Number
