@@ -32,7 +32,7 @@ public class ContainerWithMostWater {
 	
 	public static void main(String[] args) {
 		int arr[] = {2,2,3,4,9,8,7,3};		
-		maxArea(arr);
+		maxArea(arr);	
 	}
 
 }
